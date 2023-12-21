@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  padding-top: 50px; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/**** HEADER ****/
+.navbar .container{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.navbar-brand h1{
+	margin-top: 0;
+	margin-bottom: 0;
+  line-height: .75;
+ }
+ 	
+
+ #nav-list {
+  margin-top: 10px;
+   text-align: center;
+}
+/**** Main content ****/
+
+#section-title h3{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: darkblue;
+	margin: 5px;
+}
+
+#main-content h2{
+	font-weight: bold;
+}
+#big-section{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#Inter-section{
+	background-color: lightgray;
+	color: darkslategray;
+	border: 1px solid black;
+	border-color: black;
+	
+	padding: 5px;	
+}
+#section-text{
+	padding: 10px;
+}
+
+@media(min-width: 750px){
+ 	.navbar-collapse.collapse {
+ 		display: none !important;
+ 	}
+ }
+
+
